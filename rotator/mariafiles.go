@@ -299,7 +299,7 @@ var tbldatasipmaria = []string{
 		KEY source_ip (source_ip),
 		KEY destination_ip (destination_ip),
 		KEY user_agent (user_agent)
-	  ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci ROW_FORMAT=COMPRESSED KEY_BLOCK_SIZE=8
+	  ) ENGINE=TokuDB DEFAULT CHARSET=utf8 ROW_FORMAT=COMPRESSED KEY_BLOCK_SIZE=8
 	  PARTITION BY RANGE ( UNIX_TIMESTAMP(date) ) (
 		  PARTITION {{date}}_{{minTime}} VALUES LESS THAN ( UNIX_TIMESTAMP('{{endTime}}') )
 	  );`,
@@ -362,7 +362,7 @@ var tbldatasipmaria = []string{
 		KEY source_ip (source_ip),
 		KEY destination_ip (destination_ip),
 		KEY user_agent (user_agent)
-	  ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci ROW_FORMAT=COMPRESSED KEY_BLOCK_SIZE=8
+	  ) ENGINE=TokuDB DEFAULT CHARSET=utf8 ROW_FORMAT=COMPRESSED KEY_BLOCK_SIZE=8
 	  PARTITION BY RANGE ( UNIX_TIMESTAMP(date) ) (
 		  PARTITION {{date}}_{{minTime}} VALUES LESS THAN ( UNIX_TIMESTAMP('{{endTime}}') )
 	  );`,
@@ -424,7 +424,7 @@ var tbldatasipmaria = []string{
 		KEY source_ip (source_ip),
 		KEY destination_ip (destination_ip),
 		KEY user_agent (user_agent)
-	  ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci ROW_FORMAT=COMPRESSED KEY_BLOCK_SIZE=8
+	  ) ENGINE=TokuDB DEFAULT CHARSET=utf8 ROW_FORMAT=COMPRESSED KEY_BLOCK_SIZE=8
 	  PARTITION BY RANGE ( UNIX_TIMESTAMP(date) ) (
 		  PARTITION {{date}}_{{minTime}} VALUES LESS THAN ( UNIX_TIMESTAMP('{{endTime}}') )
 	  );`,
