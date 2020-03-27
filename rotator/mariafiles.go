@@ -418,6 +418,7 @@ var tbldatasipmaria = []string{
 		KEY ruri_user (ruri_user),
 		KEY from_user (from_user),
 		KEY to_user (to_user),
+		KEY auth_user (auth_user),
 		KEY date (date),
 		KEY callid (callid),
 		KEY method (method),
