@@ -144,6 +144,8 @@ github.com/robfig/cron/v3 v3.0.1/go.mod h1:eQICP3HwyT7UooqI/z+Ov+PtYAWygg1TEWWzG
 github.com/sanity-io/litter v1.2.0/go.mod h1:JF6pZUFgu2Q0sBZ+HSV35P8TVPI1TTzEwyu9FXAw2W4=
 github.com/sipcapture/golua v0.0.0-20200610090950-538d24098d76 h1:LHLWVuD4zXJrQB8aEyN9QKIqAeWAonenmCwz2im1/+o=
 github.com/sipcapture/golua v0.0.0-20200610090950-538d24098d76/go.mod h1:NxkBb6hztCHXAf1j/ENBqbofdUtm48P3hPjpedewJl8=
+github.com/sipcapture/heplify-server v0.0.0-20210826211536-3294c40c4e56 h1:Hi1ZlbL53S/QsROaaDYBiETh75ScF4acK7LxR8mqt6U=
+github.com/sipcapture/heplify-server v0.0.0-20210826211536-3294c40c4e56/go.mod h1:C9UT4IjxMKkV19EBDEVSeUt9/0MQ1qsoo1zDKg2pfjo=
 github.com/sirupsen/logrus v1.2.0/go.mod h1:LxeOpSwHxABJmUn/MG1IvRgCAasNZTLOkJPxbbu5VWo=
 github.com/sirupsen/logrus v1.4.2/go.mod h1:tLMulIdttU9McNUspp0xgXVQah82FyeX6MwdIuYE2rE=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
