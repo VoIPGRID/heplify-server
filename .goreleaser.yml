@@ -18,7 +18,7 @@ checksum:
   name_template: 'sha256sum.txt'
   algorithm: sha256
 archives:
-  format: binary
+- format: binary
 release:
   # If you want to manually examine the release before its live, uncomment this line:
   # draft: true
