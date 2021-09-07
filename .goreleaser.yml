@@ -14,12 +14,13 @@ builds:
   goarch:
     - amd64
   main: ./cmd/heplify-server
-  binary: heplify-server
+  binary: '{{ .ProjectName }}'
 checksum:
   name_template: 'sha256sum.txt'
   algorithm: sha256
 archives:
 - format: binary
+  name_template: '{{ .ProjectName }}'
 release:
   # If you want to manually examine the release before its live, uncomment this line:
   # draft: true
