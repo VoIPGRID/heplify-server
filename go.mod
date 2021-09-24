@@ -1,4 +1,4 @@
-module github.com/voipgrid/heplify-server
+module github.com/sipcapture/heplify-server
 
 go 1.17
 
@@ -25,7 +25,6 @@ require (
 	github.com/prometheus/common v0.10.0
 	github.com/robfig/cron/v3 v3.0.1
 	github.com/sipcapture/golua v0.0.0-20200610090950-538d24098d76
-	github.com/sipcapture/heplify-server v0.0.0-20210826211536-3294c40c4e56
 	github.com/stretchr/testify v1.5.1
 	github.com/valyala/bytebufferpool v1.0.0
 	github.com/valyala/fasttemplate v1.1.1
@@ -42,6 +41,7 @@ require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/fatih/camelcase v1.0.0 // indirect
 	github.com/fatih/structs v1.1.0 // indirect
+	github.com/fortytw2/leaktest v1.3.0 // indirect
 	github.com/golang/protobuf v1.4.2 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
