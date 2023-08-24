@@ -31,7 +31,7 @@ var insconfmaria = []string{
 	(1, 1, 'timerange', '{"from":"2015-05-26T18:34:42.654Z","to":"2015-05-26T18:44:42.654Z"}', '2012-01-01 00:00:00', '2032-12-01 00:00:00', 10, 1);`,
 
 	`INSERT INTO user (uid, gid, grp, username, password, firstname, lastname, email, department, regdate, lastvisit, active) VALUES
-	(1, 10, 'users,admins', 'admin', PASSWORD('test123'), 'Admin', 'Admin', 'admin@test.com', 'Voice Enginering', '2012-01-19 00:00:00', '2015-05-29 07:17:35', 1);`,
+	(1, 10, 'users,admins', 'admin', SHA2('test123',256), 'Admin', 'Admin', 'admin@test.com', 'Voice Enginering', '2012-01-19 00:00:00', '2015-05-29 07:17:35', 1);`,
 
 	`INSERT INTO user_menu (id, name, alias, icon, weight, active) VALUES
 	('_1426001444630', 'SIP Search', 'search', 'fa-search', 10, 1),
