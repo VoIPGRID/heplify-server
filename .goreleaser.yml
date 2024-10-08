@@ -21,5 +21,14 @@ checksum:
 archives:
 - format: binary
   name_template: '{{ .ProjectName }}'
+nfpms:
+  - file_name_template: "{{ .ProjectName }}_{{ .Version }}_{{ .Arch }}"
+    bindir: /usr/bin
+    vendor: VoIPGRID
+    homepage: https://www.voipgrid.nl
+    maintainer: VoIPGRID <info@voipgrid.nl>
+    description: Homer heplify ingester service
+    formats:
+      - deb
 changelog:
   disable: true
