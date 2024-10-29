@@ -27,8 +27,20 @@ nfpms:
     vendor: VoIPGRID
     homepage: https://www.voipgrid.nl
     maintainer: VoIPGRID <info@voipgrid.nl>
-    description: Homer heplify ingester service
+    description: |-
+      Homer heplify ingester service
+      HEP Capture Server & Switch in Go - with RocksDB
+    contents:
+      - src: ./LICENSE
+        dst: /usr/share/doc/heplify-server/copyright
+        file_info:
+          mode: 0644
     formats:
       - deb
+    deb:
+      lintian_overrides:
+        - changelog-file-missing-in-native-package
+        - hardening-no-pie
+        - no-manual-page
 changelog:
   disable: true

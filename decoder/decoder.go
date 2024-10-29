@@ -15,8 +15,8 @@ import (
 	"github.com/VictoriaMetrics/fastcache"
 	xxhash "github.com/cespare/xxhash/v2"
 	"github.com/negbie/logp"
-	"github.com/sipcapture/heplify-server/config"
-	"github.com/sipcapture/heplify-server/sipparser"
+	"github.com/VoIPGRID/heplify-server/config"
+	"github.com/VoIPGRID/heplify-server/sipparser"
 )
 
 // The first 4 bytes are the string "HEP3". The next 2 bytes are the length of the

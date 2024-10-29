@@ -12,8 +12,8 @@ import (
 	"github.com/go-sql-driver/mysql"
 	"github.com/negbie/logp"
 	"github.com/robfig/cron/v3"
-	"github.com/sipcapture/heplify-server/config"
-	"github.com/sipcapture/heplify-server/database"
+	"github.com/VoIPGRID/heplify-server/config"
+	"github.com/VoIPGRID/heplify-server/database"
 )
 
 const (

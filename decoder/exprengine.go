@@ -7,7 +7,7 @@ import (
 	"github.com/antonmedv/expr"
 	"github.com/antonmedv/expr/vm"
 	"github.com/negbie/logp"
-	"github.com/sipcapture/heplify-server/sipparser"
+	"github.com/VoIPGRID/heplify-server/sipparser"
 )
 
 // ExprEngine struct

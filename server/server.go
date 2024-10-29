@@ -10,12 +10,12 @@ import (
 	"time"
 
 	"github.com/negbie/logp"
-	"github.com/sipcapture/heplify-server/config"
-	"github.com/sipcapture/heplify-server/database"
-	"github.com/sipcapture/heplify-server/decoder"
-	"github.com/sipcapture/heplify-server/metric"
-	"github.com/sipcapture/heplify-server/remotelog"
-	"github.com/sipcapture/heplify-server/rotator"
+	"github.com/VoIPGRID/heplify-server/config"
+	"github.com/VoIPGRID/heplify-server/database"
+	"github.com/VoIPGRID/heplify-server/decoder"
+	"github.com/VoIPGRID/heplify-server/metric"
+	"github.com/VoIPGRID/heplify-server/remotelog"
+	"github.com/VoIPGRID/heplify-server/rotator"
 )
 
 type HEPInput struct {

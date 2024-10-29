@@ -16,9 +16,9 @@ import (
 	"github.com/golang/snappy"
 	"github.com/negbie/logp"
 	"github.com/prometheus/common/model"
-	"github.com/sipcapture/heplify-server/config"
-	"github.com/sipcapture/heplify-server/decoder"
-	"github.com/sipcapture/heplify-server/remotelog/logproto"
+	"github.com/VoIPGRID/heplify-server/config"
+	"github.com/VoIPGRID/heplify-server/decoder"
+	"github.com/VoIPGRID/heplify-server/remotelog/logproto"
 )
 
 const (
