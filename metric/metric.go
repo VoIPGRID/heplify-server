@@ -7,7 +7,7 @@ import (
 	"syscall"
 
 	"github.com/negbie/logp"
-	"github.com/sipcapture/heplify-server/decoder"
+	"github.com/VoIPGRID/heplify-server/decoder"
 )
 
 type Metric struct {

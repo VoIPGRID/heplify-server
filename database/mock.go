@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/negbie/logp"
-	"github.com/sipcapture/heplify-server/decoder"
+	"github.com/VoIPGRID/heplify-server/decoder"
 	"github.com/valyala/bytebufferpool"
 	"golang.org/x/sync/syncmap"
 )

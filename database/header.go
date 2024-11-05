@@ -5,7 +5,7 @@ import (
 
 	"github.com/buger/jsonparser"
 	"github.com/negbie/logp"
-	"github.com/sipcapture/heplify-server/decoder"
+	"github.com/VoIPGRID/heplify-server/decoder"
 	"github.com/valyala/bytebufferpool"
 	"github.com/valyala/fasttemplate"
 )

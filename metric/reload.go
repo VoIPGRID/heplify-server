@@ -6,7 +6,7 @@ import (
 	"unicode"
 
 	"github.com/negbie/logp"
-	"github.com/sipcapture/heplify-server/config"
+	"github.com/VoIPGRID/heplify-server/config"
 )
 
 func cutSpace(str string) string {

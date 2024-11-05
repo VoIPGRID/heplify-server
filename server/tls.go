@@ -8,7 +8,7 @@ import (
 	"time"
 	"path/filepath"
 
-	"github.com/sipcapture/heplify-server/config"
+	"github.com/VoIPGRID/heplify-server/config"
 	"github.com/negbie/cert"
 	"github.com/negbie/logp"
 )

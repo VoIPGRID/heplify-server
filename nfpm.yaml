@@ -1,0 +1,33 @@
+---
+# Run as
+# [1] goreleaser build --clean --snapshot
+# [2] nfpm -f nfpm.yaml pkg --packager deb --target ./dist/
+
+name: "heplify-server"
+arch: "amd64"
+platform: "linux"
+version: "1.56.4"
+section: "misc"
+priority: "optional"
+provides:
+  - heplify-server
+depends:
+  - libc6
+  - libluajit-5.1-2
+  - libluajit-5.1-common
+maintainer: "VoIPGRID <info@voipgrid.nl>"
+description: |
+  Homer heplify ingester service
+  HEP Capture Server & Switch in Go - with RocksDB
+vendor: "VoIPGRID"
+homepage: "https://www.voipgrid.nl"
+contents:
+  - src: ./dist/heplify-server_linux_amd64_v1/heplify-server
+    dst: /usr/bin/heplify-server
+  - src: ./LICENSE
+    dst: /usr/share/doc/heplify-server/copyright
+    file_info:
+      mode: 0644
+  - src: .lintian-overrides
+    dst: ./usr/share/lintian/overrides/heplify-server
+    packager: deb

@@ -9,7 +9,7 @@ package sipparser
 import (
 	"fmt"
 
-	"github.com/sipcapture/heplify-server/sipparser/internal"
+	"github.com/VoIPGRID/heplify-server/sipparser/internal"
 )
 
 type parseFromStateFn func(f *From) parseFromStateFn

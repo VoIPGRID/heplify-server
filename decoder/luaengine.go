@@ -7,7 +7,7 @@ import (
 
 	"github.com/negbie/logp"
 	"github.com/sipcapture/golua/lua"
-	"github.com/sipcapture/heplify-server/decoder/luar"
+	"github.com/VoIPGRID/heplify-server/decoder/luar"
 )
 
 // LuaEngine

@@ -6,8 +6,8 @@ import (
 
 	_ "github.com/lib/pq"
 	"github.com/negbie/logp"
-	"github.com/sipcapture/heplify-server/config"
-	"github.com/sipcapture/heplify-server/decoder"
+	"github.com/VoIPGRID/heplify-server/config"
+	"github.com/VoIPGRID/heplify-server/decoder"
 	"github.com/valyala/bytebufferpool"
 )
 

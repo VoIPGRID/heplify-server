@@ -1,4 +1,4 @@
-module github.com/sipcapture/heplify-server
+module github.com/VoIPGRID/heplify-server
 
 go 1.23
 

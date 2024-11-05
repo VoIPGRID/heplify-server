@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/sipcapture/heplify-server/config"
+	"github.com/VoIPGRID/heplify-server/config"
 )
 
 const (

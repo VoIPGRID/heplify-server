@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/sipcapture/heplify-server/config"
-	"github.com/sipcapture/heplify-server/decoder"
+	"github.com/VoIPGRID/heplify-server/config"
+	"github.com/VoIPGRID/heplify-server/decoder"
 )
 
 var pmCh = make(chan *decoder.HEP, 20000)

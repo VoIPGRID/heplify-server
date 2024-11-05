@@ -15,8 +15,8 @@ import (
 	"github.com/negbie/logp"
 	"github.com/negbie/multiconfig"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	"github.com/sipcapture/heplify-server/config"
-	input "github.com/sipcapture/heplify-server/server"
+	"github.com/VoIPGRID/heplify-server/config"
+	input "github.com/VoIPGRID/heplify-server/server"
 )
 
 type server interface {
