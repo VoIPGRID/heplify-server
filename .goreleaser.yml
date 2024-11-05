@@ -28,7 +28,6 @@ nfpms:
     section: misc
     priority: optional
     homepage: https://www.voipgrid.nl
-    license: AGPL-3.0 license
     maintainer: VoIPGRID <info@voipgrid.nl>
     description: |-
       Homer heplify ingester service
