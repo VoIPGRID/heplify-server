@@ -25,11 +25,18 @@ nfpms:
   - file_name_template: "{{ .ProjectName }}_{{ .Version }}_{{ .Arch }}"
     bindir: /usr/bin
     vendor: VoIPGRID
+    section: misc
+    priority: optional
     homepage: https://www.voipgrid.nl
+    license: AGPL-3.0 license
     maintainer: VoIPGRID <info@voipgrid.nl>
     description: |-
       Homer heplify ingester service
       HEP Capture Server & Switch in Go - with RocksDB
+    dependencies:
+      - libc6
+      - libluajit-5.1-2
+      - libluajit-5.1-common
     contents:
       - src: ./LICENSE
         dst: /usr/share/doc/heplify-server/copyright
